@@ -3,7 +3,29 @@ Folha de estilo one page Site  shib
 @authorCamilo Galieta
 zetgalieta@gmail.com
 */
+/*Smartphone Portrai>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*Smartphone Landscape>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+@media (min-width: 576px){
+    body{
+        background-color: #0ff;
+    }
+}
 
-body{
-    background-color: #ff0000;
+/*Tablet Portrait>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+@media (min-width: 768px){
+    body{
+        background-color: #f00;
+    }
+}
+/*Tablet Landscape*/
+@media (min-width: 992x){
+    body{
+        background-color: #ff6600;
+    }
+} 
+/*PC>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+@media (min-width: 1200px){
+    body{
+        background-color:  #f00 ;
+    }
 }
